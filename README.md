@@ -11,7 +11,9 @@ Outline
 
 
 ## Overview
-This is a 100% Adaptive Website Of The IT School with 3 brekpoints and is suitable for every kind of devices with. Whit Mobile "burger" Menu, Scrolling Elements And With Some Information About Teacher; Which You Can Get Click On The Link "More...". ENJOY )).
+This is a 100% Adaptive Website Of The IT School with 3 brekpoints and is suitable for every kind of devices with Mobile "burger" Menu, Scrolling Elements And With Some Information About Teachers Which You Can Get Click On The Link "More...".  
+
+ENJOY )).
 
 ### Screenshots
 
@@ -42,16 +44,16 @@ Live Solution at (https://github.com/Valeri-CSS/RoboSchool-18)
 
 ### Build with
 
+- JavaScript
 - Semantic HTML5 markup
 - CSS custom properties
-- JavaScript
 - Mobile-first workflow
 - Flexbox
 - Grid
 
 ### What I learned
 
-In this project at the first time I used JavaScript to make a adaptive menu for the small screens and also some information windows that can be opened by click. I learnd how to make a window with scrollbar and how to style a scrollbars useing -Webkitt-.
+In this project at the first time I used JavaScript to make an adaptive menu for the small screens and also some information windows that can be opened by click. I learnd how to make a window with scrollbar and how to style a scrollbars useing -Webkitt-.
 
 ### Author
 
