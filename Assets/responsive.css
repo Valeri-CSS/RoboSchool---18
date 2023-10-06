@@ -1,0 +1,328 @@
+@media only screen and (min-width:765px) {
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-content {
+        display: none;
+    }
+
+    .header-content-navigation {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .tablet-nav-list {
+        display: flex;
+        gap: 34px;
+        list-style-type: none;
+    }
+
+    .tablet-nav-list li a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .callto {
+        color: white;
+        text-decoration: none;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero-content {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .desktop-hero-content {
+        position: relative;
+        display: block;
+        width: 634px;
+        height: 531px;
+    }
+
+    .desktopelipse {
+        display: block;
+        max-width: 400px;
+        position: absolute;
+        right: 0;
+        bottom: 22px;
+    }
+
+    .desktophero {
+        display: block;
+        max-width: 265px;
+        position: absolute;
+        right: 58px;
+        bottom: 0;
+    }
+
+    .hero-title {
+        position: absolute;
+        top: 57px;
+        left: -34px;
+    }
+
+    .hero-description {
+        position: absolute;
+        top: 221px;
+        left: -31px;
+        text-align: left;
+        width: 234px;
+    }
+
+    .hero-courses-button {
+        left: -33px;
+        top: 320px;
+        width: 22%;
+    }
+
+    .endofeducation-titel {
+        margin: 14px 20px 65px 20px;
+    }
+
+    .endofeducation-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .trainers-titel {
+        text-align: left;
+        margin: 33px 40px 50px 40px;
+    }
+
+    .packages-content {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .description-titel {
+        text-align: left;
+        margin: unset;
+    }
+
+    .description-content {
+        text-align: left;
+    }
+
+    .content p:last-child {
+        margin: 0 73px 0 0px;
+    }
+
+    .endofeducation-titel {
+        text-align: left;
+        margin: 13px 20px 65px 0px;
+    }
+
+    .endofeducation-description p {
+        text-align: left;
+        margin-right: 20px;
+    }
+
+    .endofeducation-description h3 {
+        text-align: left;
+    }
+
+    .flex {
+        justify-content: left;
+    }
+
+    .package-titel {
+        margin: 40px 20px 40px 0px;
+    }
+
+    .packages-content {
+        display: grid;
+        margin-bottom: 66px;
+        gap: 43px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .dark h3 {
+        margin-top: 48px;
+    }
+
+    .registration {
+        background-image: url(../Img/percent.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+    }
+
+
+    .registration-content {
+        flex-direction: row;
+    }
+
+    .registration-text {
+        padding-top: 21px;
+        padding-right: 43px;
+    }
+
+    .registration-promotion {
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .footer-content {
+        display: block;
+        position: relative;
+        height: 93px;
+    }
+
+    footer a {
+        position: absolute;
+        right: 0;
+        top: 33px;
+        margin-right: 10%;
+    }
+
+    footer h2 {
+        position: absolute;
+        top: -20px;
+        left: 7%;
+    }
+
+    footer img {
+        position: absolute;
+        top: 19px;
+        left: 7%;
+        width: 10%;
+    }
+
+}
+
+@media only screen and (min-width:1250px) {
+
+    header div:nth-child(2) {
+        width: 90%;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .tablet-nav-list {
+        gap: 137px;
+    }
+
+    .desktopelipse {
+        right: -323px;
+        max-width: 480px;
+    }
+
+    .desktophero {
+        right: -257px;
+        max-width: 332px;
+    }
+
+    .desktop-hero-content {
+        height: 670px;
+    }
+
+    .hero-content {
+        margin: unset;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        top: 80px;
+    }
+
+    .hero-description {
+        font-size: 20px;
+        width: 330px;
+        top: 257px;
+    }
+
+    .hero-courses-button {
+        top: 350px;
+        width: 30%;
+    }
+
+    .description-titel {
+        max-width: 713px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .description-content {
+        grid-template-columns: repeat(auto-fit, minmax(218px, 1fr));
+    }
+
+    .content p:last-child {
+        font-size: 18px;
+        margin: 0 14px 0 0;
+    }
+
+    .endofeducation-titel {
+        margin: 47px 20px 46px 0px;
+        font-size: 36px;
+    }
+
+    .endofeducation-description h3 {
+        font-size: 24px;
+    }
+
+    .endofeducation-description p {
+        font-size: 18px;
+    }
+
+    .trainers-titel {
+        font-size: 36px;
+        margin: 33px 40px 50px 0px;
+    }
+
+    .name {
+        font-size: 21px;
+    }
+
+    .card-description {
+        font-size: 21px;
+    }
+
+    .cards-content a {
+        font-size: 20px;
+    }
+
+    .package-titel {
+        text-align: left;
+        font-size: 36px;
+    }
+
+    .dark p {
+        font-size: 20px;
+    }
+
+    .white p {
+        font-size: 20px;
+        width: 186px;
+    }
+
+    .package button {
+        font-size: 18px;
+    }
+
+    .registration {
+        height: 344px;
+    }
+
+    .registration-text {
+        padding-right: 378px;
+    }
+
+    input[type="submit"] {
+        font-size: 18px;
+    }
+}
